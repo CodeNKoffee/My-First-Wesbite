@@ -1,0 +1,141 @@
+body{
+    background-color: #fff;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0%;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: rgba(56, 152, 230, 0.952);
+    color: #f4f4f4;
+}
+
+#nav-bar{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+#nav-bar ul{
+    padding: 0%;
+    list-style-type: none;
+}
+
+#nav-bar li{
+    display: inline;
+}
+
+#nav-bar a{
+    color: #f4f4f4;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+#showcase{
+    background-image: url(./Images/The\ Unmasked\ Identity.jpg);
+    background-position-y: 35%;
+    background-position-x: 45%;
+    min-height: 1500px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#bar-nav{
+    background-color: #f4f4f4;
+    color: #333;
+    inline-size: auto;
+    font-size: 25px;
+}
+
+#showcase h1{
+    padding: 16px;
+    line-height: 0.8em;
+}
+
+#main{
+    float: left;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#mentality{
+    float: left;
+    padding: 20 20px;
+}
+
+#sidebar{
+    float: right;
+    width: 40%;
+    padding: 5px 12px;
+    padding-right: 30px;
+    background-color: #333;
+    color: #f4f4f4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#claim{
+    background-color: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 2px;
+    margin-top: 40px;
+    font-style: oblique;
+}
+
+@media(max-width: 600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+}
+
+
+#title{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.s-talk{
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+.contactlinks{
+    text-decoration: none;
+    color: #333;
+}
+
+#nile{
+    float: center;
+    width: 80%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+#caption{
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #333;
+    color: #f4f4f4;
+    box-sizing: border-box;
+    border-radius: 60px;
+    position: top;
+}
+
+#date{
+    font-style: italic;
+}
+

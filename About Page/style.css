@@ -1,0 +1,92 @@
+body{
+    background-color: #fff;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0%;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: rgba(56, 152, 230, 0.952);
+    color: #f4f4f4;
+}
+
+#nav-bar{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+#nav-bar ul{
+    padding: 0%;
+    list-style-type: none;
+}
+
+#nav-bar li{
+    display: inline;
+}
+
+#nav-bar a{
+    color: #f4f4f4;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+#title{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#subtitle{
+    margin: 5px;
+    padding: 13px;
+    padding-top: 1.0em;
+    font-size: 23px;
+    width: 80%;
+    line-height: 1.3em;
+    padding-top: 18px;
+    color: rgb(134, 134, 134) ;
+}
+
+#section{
+    display: inline;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+#p1p{
+    float: right;
+}
+
+#p2{
+    float: right;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+#p3{
+    float: left;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#claim{
+    background-color: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 2px;
+    margin-top: 40px;
+    font-style: oblique;
+}
