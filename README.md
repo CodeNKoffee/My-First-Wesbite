@@ -1,6 +1,6 @@
 # Project Title
 
-Vowel Counter Web App
+Solifuse's First Personal Website
 
 ## Description
 
